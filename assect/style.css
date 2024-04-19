@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display:flex;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid rgb(0, 0, 0, 0.1);
+    width: 15rem;
+    height: 100%;
+    background-color: rgb(205, 195, 230);
+}
+
+
+.usuario img{
+    width: 50px;
+    border-radius: 30px;
+    position: static;
+}
+
+.chats img{
+    width: 50px;
+    border-radius: 30px;
+    position: static;
+}
+
+.usuario{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    border: 0.1px solid rgb(0, 0, 0, 0.2);
+}
+
+.info_user{
+    padding: 10px;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.info_user h5{
+    margin-bottom: -2px;
+}
+
+.info_user p{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: .6rem;
+}
+
+.boton{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: .1px solid rgb(0, 0, 0, 0.1);
+    padding: 10px; 
+}
+
+.contactos{
+    align-items: center;
+    justify-content: center;
+
+}
+
+.chats{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.info_chat{
+    width: 10rem;
+    text-align: center;
+    height: 4rem;
+}
+
+.info_chat h5{
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.info_chat p{
+    font-size: .9rem;
+}
+
+
+.usuario:hover{
+    background-color: rgb(164, 145, 209, 0.5);
+}
+
+.chats:hover{
+    background-color: rgb(164, 145, 209, 0.5);
+}
+
+.mesajeria{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(212, 220, 255);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.zona_mesj img{
+    width: 320px;
+}
+
+.zona_mesj {
+    width: 80%;
+}
+
+.contenedores_msj{
+    text-align: center;
+}
